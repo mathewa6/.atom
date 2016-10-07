@@ -1,0 +1,28 @@
+"*":
+  core:
+    disabledPackages: [
+      "metrics"
+      "exception-reporting"
+    ]
+  editor:
+    fontFamily: "SFMono-Regular"
+    fontSize: 12
+    scrollPastEnd: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "e9940fba-359b-5dba-2028-13688d5cd175"
+  "markdown-preview":
+    useGitHubStyle: true
+  minimap:
+    displayMinimapOnLeft: true
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "one-dark-ui":
+    layoutMode: "Compact"
+    tabSizing: "Even"
+  "one-light-ui":
+    layoutMode: "Compact"
+    tabSizing: "Even"
+  welcome:
+    showOnStartup: false
