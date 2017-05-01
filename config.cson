@@ -1,16 +1,53 @@
 "*":
   core:
+    automaticallyUpdate: false
     disabledPackages: [
       "metrics"
       "exception-reporting"
     ]
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "hopscotch"
+    ]
   editor:
-    fontFamily: "SFMono-Regular"
+    fontFamily: "Menlo"
     fontSize: 12
     scrollPastEnd: true
     showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
   "exception-reporting":
     userId: "e9940fba-359b-5dba-2028-13688d5cd175"
+  latex:
+    cleanPatterns: [
+      "**/*.aux"
+      "**/*.aux.bak"
+      "**/*.bcf"
+      "**/*.dvi"
+      "**/*.fdb_latexmk"
+      "**/*.fls"
+      "**/*.idx"
+      "**/*.idx.bak"
+      "**/*.ilg"
+      "**/*.ind"
+      "**/*.lof"
+      "**/*.log"
+      "**/*.lol"
+      "**/*.lot"
+      "**/*.nav"
+      "**/*.out"
+      "**/*.ps"
+      "**/*.snm"
+      "**/*.synctex.gz"
+      "**/*.toc"
+      "/**/_minted-{jobname}"
+      "/{output_dir}/sage-plots-for-{jobname}.tex"
+      "/missfont.log"
+      "/texput.log"
+      "/texput.aux"
+    ]
+  "linter-ui-default": {}
   "markdown-preview":
     useGitHubStyle: true
   minimap:
