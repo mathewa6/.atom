@@ -17,6 +17,7 @@
     showInvisibles: true
     softWrap: true
     softWrapAtPreferredLineLength: true
+    tabLength: 4
   "exception-reporting":
     userId: "e9940fba-359b-5dba-2028-13688d5cd175"
   latex:
