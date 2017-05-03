@@ -47,10 +47,12 @@
       "/texput.log"
       "/texput.aux"
     ]
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   "markdown-preview":
     useGitHubStyle: true
   minimap:
+    disablePythonDocLinks: true
     displayMinimapOnLeft: true
     plugins:
       "highlight-selected": true
